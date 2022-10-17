@@ -1,3 +1,10 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "indent": ["error", 4],
+    "semi": ["error", "always"],
+    "sort-imports": ["error", {"allowLineSeparatedGroups": true}],
+    "sort-keys": ["error", "asc", {"allowLineSeparatedGroups": true, "natural": true}],
+    "sort-vars": "error"
+  }
 }
